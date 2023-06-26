@@ -1,0 +1,44 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  h1{
+    padding: 2%;
+  }
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .numberCart {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  
+  .numberCart i {
+    cursor: pointer;
+  }
+  
+  .numberCart span {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
